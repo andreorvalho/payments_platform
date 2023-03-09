@@ -1,3 +1,9 @@
+PATH
+  remote: payment
+  specs:
+    payment (0.1.0)
+      rails (>= 7.0.4.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -189,6 +195,7 @@ DEPENDENCIES
   bootsnap
   debug
   factory_bot_rails
+  payment!
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
   rspec-rails
