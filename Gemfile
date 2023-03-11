@@ -32,4 +32,4 @@ group :development do
   gem "web-console"
 end
 
-gem 'payment', path: 'payment'
+gem 'payment_gateway', path: 'payment_gateway'
