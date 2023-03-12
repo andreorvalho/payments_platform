@@ -33,3 +33,4 @@ group :development do
 end
 
 gem 'payment_gateway', path: 'payment_gateway'
+gem 'customer_data', path: 'customer_data'

@@ -1,7 +1,14 @@
 PATH
-  remote: payment
+  remote: customer_data
   specs:
-    payment (0.1.0)
+    customer_data (0.1.0)
+      bootsnap
+      rails (>= 7.0.4.2)
+
+PATH
+  remote: payment_gateway
+  specs:
+    payment_gateway (0.1.0)
       bootsnap
       rails (>= 7.0.4.2)
 
@@ -194,9 +201,10 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  customer_data!
   debug
   factory_bot_rails
-  payment!
+  payment_gateway!
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
   rspec-rails
