@@ -1,4 +1,7 @@
-bundle exec rails plugin new payment_gateway --full
-bundle exec rails plugin new customer_data --full
+The project is using 2 engines:
 
-bundle exec rails generate rspec:install
+1. Customer Data: Encapsulates all customer data and has a facade to access it.
+
+2. Payment Gateway: Encapsulates the payment requests API
+
+We are using rspec and factory bot to test the application.
