@@ -7,7 +7,7 @@ class ApplicationController < ActionController::API
 
   def authenticate_user
     @token = decode(http_auth_header)
-    render json: { errors: e.message }, status: :unauthorized if Time.now < @token[:exp]
+    render json: { errors: "token not valid" }, status: :unauthorized if Time.now.to_i > @token[:exp]
     @current_user = User.find_by_email(@token[:user_id])
   rescue ActiveRecord::RecordNotFound => e
     render json: { errors: e.message }, status: :unauthorized
