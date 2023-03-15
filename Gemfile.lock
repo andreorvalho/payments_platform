@@ -1,12 +1,14 @@
-PATH
-  remote: customer_data
+GIT
+  remote: https://github.com//andreorvalho/customer_data.git
+  revision: 4f5ead24739b839780ac08fd9ed7f6648aa72d38
   specs:
     customer_data (0.1.0)
       bootsnap
       rails (>= 7.0.4.2)
 
-PATH
-  remote: payment_gateway
+GIT
+  remote: https://github.com//andreorvalho/payment_gateway.git
+  revision: 8ae8be2a8b8d7ab8a63dedfdb999ebc7ba50174c
   specs:
     payment_gateway (0.1.0)
       bootsnap

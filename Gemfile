@@ -37,5 +37,5 @@ group :development do
   gem "web-console"
 end
 
-gem 'payment_gateway', path: 'payment_gateway'
-gem 'customer_data', path: 'customer_data'
+gem 'payment_gateway', github: '/andreorvalho/payment_gateway'
+gem 'customer_data', github: '/andreorvalho/customer_data'
