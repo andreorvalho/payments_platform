@@ -1,0 +1,6 @@
+[submodule "customer_data"]
+	path = customer_data
+	url = https://github.com/andreorvalho/customer_data
+[submodule "payment_gateway"]
+	path = payment_gateway
+	url = https://github.com/andreorvalho/payment_gateway
